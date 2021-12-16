@@ -1,0 +1,56 @@
+
+.ox_form{
+    width: 300px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* background: blue; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 1px 15px 3px #495967;
+}
+.ox_form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+#ox_name,#ox_surname,#ox_year{
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    border: 3px solid rgb(95, 95, 109);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ox_btn{
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: 700;
+    background: rgb(226, 139, 76);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.ox_btn:hover{
+    background: #fff;
+    color:rgb(226, 139, 76) ;
+}
+#ox_write{
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    color: rgb(226, 139, 76);
+    text-transform: capitalize;
+}
